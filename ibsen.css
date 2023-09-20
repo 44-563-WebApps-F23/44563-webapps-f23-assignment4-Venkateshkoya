@@ -12,7 +12,7 @@ background-color: rgb(156, 184, 175);
 }
 
 .direction:hover{
-    background-color: rgb(101, 177, 177);
+    background-color: rgb(60, 222, 73);
     color: black;
 }
 
@@ -22,11 +22,11 @@ background-color: rgb(156, 184, 175);
 }
 
 .HEDDA{
-    color: rgb(106, 106, 165);
+    color: rgb(217, 10, 51);
 }
 
 .MRSELVSTED{
-    color: rgb(223, 223, 113);
+    color: rgb(53, 118, 239);
 }
 
 .TESMAN{
@@ -34,6 +34,51 @@ background-color: rgb(156, 184, 175);
 }
 
 .BRACK{
-    color: rgb(234, 167, 67);
+    color: rgb(215, 136, 17);
 }
 
+table {
+    border-collapse: separate;
+    width: 100%;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+ table th {
+    background-color: rgb(14, 160, 217); 
+    color: ; 
+    text-align: center; 
+    padding: 10px; 
+    border-radius: 10px;
+}
+table td {
+    border: 1px solid #d34848;
+    text-align: center; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color:rgb(77, 119, 155);
+}
+
+.HEDDA:hover{
+    text-shadow: 2px 2px 1px #a2429f; 
+    border: 1px solid #e5cb49; 
+}
+
+.MRSELVSTED:hover{
+    text-shadow: 2px 2px 1px #f19576; 
+    border: 1px solid #f07f81; 
+}
+
+.TESMAN:hover{
+    text-shadow: 2px 2px 1px #f19576; 
+    border: 1px solid #f07f81; 
+}
+
+.BRACK:hover{
+    text-shadow: 2px 2px 1px #4bcba7; 
+    border: 1px solid #6a57e1; 
+}
