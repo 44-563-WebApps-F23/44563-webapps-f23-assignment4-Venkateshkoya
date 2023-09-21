@@ -82,3 +82,22 @@ table tbody tr:nth-child(even) {
     text-shadow: 2px 2px 1px #4bcba7; 
     border: 1px solid #6a57e1; 
 }
+
+ul.navbar-horizontal{
+    list-style-type: style type auto;
+    margin: 12px;
+    padding: 4px;
+}
+ul.navbar-horizontal{
+    float:centre;
+    color: rgb(130, 29, 105);
+    background-color: #afddb0;
+}
+ul.navbar-horizontal a{
+    display: block;
+    padding: 6px;
+}
+ul.navbar-horizontal a:hover{
+    background-color: rgb(60, 132, 108);
+    color: skyblue;
+}
